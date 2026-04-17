@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+header {
+  height: 50px;
+  background: #0079c1;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+#container {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+
+#sidebar {
+  width: 280px;
+  background: #f4f4f4;
+  overflow: auto;
+}
+
+
+#viewDiv {
+  flex: 1;
+}
